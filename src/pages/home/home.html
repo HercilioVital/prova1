@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Bem vindo</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-item>
+    <h3 style="text-align: center"> Mural </h3>
+  </ion-item>
+    <ion-card >
+        <ion-card-header>
+          <ion-icon ios="ios-book" md="md-book" isActive="true"></ion-icon>
+          Estudar história
+        </ion-card-header>
+        <ion-card-content style="text-decoration: justify">
+          Conteudo de revisão para prova do dia 10! 
+          -Estudar o captulo 4;
+          -Brasil colonia.
+        </ion-card-content>
+
+        <button ion-button full (click)="postDetalhes()">Detalhes da atividade</button>
+      </ion-card>
+
+      <ion-card >
+        <ion-card-header>
+          <ion-icon ios="ios-calendar" md="md-calendar" isActive="true"></ion-icon>
+          Prova de portugês
+        </ion-card-header>
+        <ion-card-content style="text-decoration: justify">
+          Será realizado a prova de portugues no dia 19/10!
+        </ion-card-content>
+      
+        <button ion-button full (click)="postDetalhes()">Detalhes da atividade</button>
+      </ion-card>
+
+      <ion-card >
+        <ion-card-header>
+          <ion-icon ios="ios-download" md="md-download" isActive="true"></ion-icon>
+          Novo conteudo de aula adicionado!
+        </ion-card-header>
+        <ion-card-content style="text-decoration: justify">
+          Conteudo da aula: Brasil colonia - Material para prova do dia 18/10!
+        </ion-card-content>
+      
+        <button ion-button full (click)="postDetalhes()">Visualizar</button>
+      </ion-card>
+
+</ion-content>
+
+
+
+
